@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BTech Roadmap — 4 Years to Dream Job</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">
+      <span class="logo-icon">🚀</span>
+      <span>BTech Roadmap</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#year1">Year 1</a></li>
+      <li><a href="#year2">Year 2</a></li>
+      <li><a href="#year3">Year 3</a></li>
+      <li><a href="#year4">Year 4</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">🎓 Your Complete Journey</div>
+      <h1 class="hero-title">
+        4 Years.<br />
+        <span class="gradient-text">One Dream Job.</span>
+      </h1>
+      <p class="hero-sub">
+        From zero to hired — a precise skill roadmap for every phase of your B.Tech
+      </p>
+      <div class="hero-stats">
+        <div class="stat-pill">📦 4 Phases</div>
+        <div class="stat-pill">🛠 40+ Skills</div>
+        <div class="stat-pill">💼 High Package</div>
+      </div>
+      <a href="#year1" class="hero-cta">Start the Journey ↓</a>
+    </div>
+    <div class="hero-cards-float">
+      <div class="floating-card fc-1"><span>🐧</span><small>Linux</small></div>
+      <div class="floating-card fc-2"><span>⚡</span><small>DSA</small></div>
+      <div class="floating-card fc-3"><span>🤝</span><small>Internship</small></div>
+      <div class="floating-card fc-4"><span>💰</span><small>Offer</small></div>
+    </div>
+  </section>
+
+  <!-- YEAR 1 -->
+  <section class="year-section reveal" id="year1" data-year="1">
+    <div class="year-header y1">
+      <div class="year-number">01</div>
+      <div class="year-meta">
+        <h2>The Foundation Year</h2>
+        <p>Think like an engineer, not just a student</p>
+      </div>
+      <div class="year-badge-pill">Sem 1–2</div>
+    </div>
+    <div class="cards-grid">
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">💻</div>
+        <h3>Programming Basics</h3>
+        <ul>
+          <li>C or Python as your first language</li>
+          <li>Loops, functions, recursion, OOP</li>
+          <li>Solve 50+ problems on HackerRank</li>
+          <li>Understand time &amp; space complexity</li>
+        </ul>
+        <span class="card-tag">Must Do</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🐧</div>
+        <h3>Linux &amp; Terminal</h3>
+        <ul>
+          <li>Install Ubuntu / use WSL</li>
+          <li>File system, permissions, processes</li>
+          <li>Bash scripting basics</li>
+          <li>Git: init, add, commit, push, branch</li>
+        </ul>
+        <span class="card-tag green">Foundation</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🧮</div>
+        <h3>Math for CS</h3>
+        <ul>
+          <li>Discrete Math: sets, graphs, logic</li>
+          <li>Boolean algebra &amp; logic gates</li>
+          <li>Probability basics (for ML later)</li>
+          <li>Big-O notation — always think in terms of it</li>
+        </ul>
+        <span class="card-tag purple">Core</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🗣️</div>
+        <h3>Communication</h3>
+        <ul>
+          <li>Technical writing: clear emails &amp; docs</li>
+          <li>English fluency (Grammarly helps)</li>
+          <li>Present your lab code with confidence</li>
+          <li>Read tech blogs: DEV.to, Medium</li>
+        </ul>
+        <span class="card-tag orange">Soft Skill</span>
+      </div>
+      <div class="skill-card wide-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🌐</div>
+        <h3>Internet &amp; GitHub Basics</h3>
+        <ul>
+          <li>How the internet works: DNS, HTTP/S, TCP/IP</li>
+          <li>Client–server model, what is a web server?</li>
+          <li>Browser dev tools — Inspect, Network tab</li>
+          <li>Create your GitHub profile — push your first 3 repos!</li>
+        </ul>
+        <span class="card-tag">Foundation</span>
+      </div>
+    </div>
+    <div class="year-milestone">
+      <span>🏁 Year 1 Goal:</span> 3 GitHub repos live. Comfortable in the terminal. Solving daily problems. GitHub profile looks alive.
+    </div>
+  </section>
+
+  <!-- YEAR 2 -->
+  <section class="year-section reveal" id="year2" data-year="2">
+    <div class="year-header y2">
+      <div class="year-number">02</div>
+      <div class="year-meta">
+        <h2>Skills &amp; Specialization</h2>
+        <p>Pick your domain, go deep, think in systems</p>
+      </div>
+      <div class="year-badge-pill">Sem 3–4</div>
+    </div>
+    <div class="cards-grid">
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">⚡</div>
+        <h3>DSA — Data Structures</h3>
+        <ul>
+          <li>Arrays, Strings, Linked Lists, Stacks, Queues</li>
+          <li>Trees, Graphs, Heaps, Hash Maps</li>
+          <li>Sorting, Searching, Divide &amp; Conquer</li>
+          <li>LeetCode — target 100+ problems</li>
+        </ul>
+        <span class="card-tag">Must Do</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🖥️</div>
+        <h3>Choose Your Domain</h3>
+        <ul>
+          <li>🌐 Web Dev — HTML/CSS, JS, React</li>
+          <li>📱 App Dev — Flutter or Kotlin</li>
+          <li>🤖 AI/ML — Python, NumPy, scikit-learn</li>
+          <li>🔒 Cybersecurity — Kali, TryHackMe</li>
+        </ul>
+        <span class="card-tag purple">Specialize</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🗄️</div>
+        <h3>Databases</h3>
+        <ul>
+          <li>SQL: SELECT, JOIN, GROUP BY, indexes</li>
+          <li>PostgreSQL or MySQL setup locally</li>
+          <li>MongoDB intro — documents vs tables</li>
+          <li>Design a schema for a real use-case</li>
+        </ul>
+        <span class="card-tag green">Core</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🔧</div>
+        <h3>Dev Tools &amp; Workflow</h3>
+        <ul>
+          <li>VS Code shortcuts, Vim basics</li>
+          <li>Git: branching, merge conflicts, PRs</li>
+          <li>Docker basics — images &amp; containers</li>
+          <li>Postman for REST API testing</li>
+        </ul>
+        <span class="card-tag orange">Productivity</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🏗️</div>
+        <h3>System Design Basics</h3>
+        <ul>
+          <li>What is an API? REST vs GraphQL</li>
+          <li>MVC architectural pattern</li>
+          <li>Read "Grokking System Design" (free)</li>
+          <li>Design a small system on paper</li>
+        </ul>
+        <span class="card-tag purple">Thinking</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🤝</div>
+        <h3>Start Networking</h3>
+        <ul>
+          <li>Polish your LinkedIn — 500+ connections</li>
+          <li>Follow engineers at FAANG/Unicorns</li>
+          <li>Join a college coding club / ACM</li>
+          <li>Attend 1 hackathon this year</li>
+        </ul>
+        <span class="card-tag">Career</span>
+      </div>
+    </div>
+    <div class="year-milestone">
+      <span>🏁 Year 2 Goal:</span> 2 domain projects on GitHub. 100+ LeetCode solved. Attended a hackathon. LinkedIn profile active.
+    </div>
+  </section>
+
+  <!-- YEAR 3 -->
+  <section class="year-section reveal" id="year3" data-year="3">
+    <div class="year-header y3">
+      <div class="year-number">03</div>
+      <div class="year-meta">
+        <h2>Build &amp; Prove</h2>
+        <p>Real projects, code reviews, real internships</p>
+      </div>
+      <div class="year-badge-pill">Sem 5–6</div>
+    </div>
+    <div class="cards-grid">
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">💼</div>
+        <h3>Internships</h3>
+        <ul>
+          <li>Apply to 50+ companies (Internshala, LinkedIn)</li>
+          <li>Target startups: broader role, fast learning</li>
+          <li>Even unpaid = real experience &amp; LoR</li>
+          <li>Ask for a Letter of Recommendation always</li>
+        </ul>
+        <span class="card-tag">Must Do</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🚀</div>
+        <h3>Major Project</h3>
+        <ul>
+          <li>Production-ready app — not tutorials</li>
+          <li>Deploy it: Vercel, Railway, AWS free tier</li>
+          <li>Real auth, database, payments if possible</li>
+          <li>Write a killer README with screenshots</li>
+        </ul>
+        <span class="card-tag green">Showpiece</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🔓</div>
+        <h3>Open Source</h3>
+        <ul>
+          <li>Find "good first issue" labels on GitHub</li>
+          <li>GSoC / GSSoC / Hacktoberfest</li>
+          <li>Review others' PRs — builds credibility</li>
+          <li>Stars &amp; forks = social proof</li>
+        </ul>
+        <span class="card-tag purple">Community</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">☁️</div>
+        <h3>Cloud &amp; DevOps</h3>
+        <ul>
+          <li>AWS / GCP free tier — deploy a server</li>
+          <li>CI/CD pipelines with GitHub Actions</li>
+          <li>Kubernetes basics (k8s concepts)</li>
+          <li>Linux server: SSH, nginx, systemd</li>
+        </ul>
+        <span class="card-tag orange">In-Demand</span>
+      </div>
+      <div class="skill-card wide-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">📊</div>
+        <h3>Advanced Competitive Programming</h3>
+        <ul>
+          <li>LeetCode Medium/Hard — aim 250+ problems</li>
+          <li>Codeforces — reach Specialist (1200+ rating)</li>
+          <li>Deep dive: DP, Greedy, Graphs, Segment Trees</li>
+          <li>Weekly contests — consistency is everything</li>
+        </ul>
+        <span class="card-tag">Top Priority</span>
+      </div>
+    </div>
+    <div class="year-milestone">
+      <span>🏁 Year 3 Goal:</span> 1 internship done. Deployed project with real users. 250+ LeetCode problems. Active open source contributions.
+    </div>
+  </section>
+
+  <!-- YEAR 4 -->
+  <section class="year-section reveal" id="year4" data-year="4">
+    <div class="year-header y4">
+      <div class="year-number">04</div>
+      <div class="year-meta">
+        <h2>Job Ready — Final Push</h2>
+        <p>Polish everything and land that offer</p>
+      </div>
+      <div class="year-badge-pill">Sem 7–8</div>
+    </div>
+    <div class="cards-grid">
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">📝</div>
+        <h3>Resume &amp; LinkedIn</h3>
+        <ul>
+          <li>1-page ATS-friendly resume (Jake's template)</li>
+          <li>Quantify impact — "Reduced load 40%"</li>
+          <li>LinkedIn: role you want, not your degree</li>
+          <li>3 recommendations from seniors/mentors</li>
+        </ul>
+        <span class="card-tag">Must Do</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🧠</div>
+        <h3>System Design (Advanced)</h3>
+        <ul>
+          <li>Design: URL shortener, Twitter, WhatsApp</li>
+          <li>Load balancers, CDNs, Redis caching</li>
+          <li>DB sharding, replication, CAP theorem</li>
+          <li>Gaurav Sen &amp; ByteByteGo on YouTube</li>
+        </ul>
+        <span class="card-tag purple">L4+ Interviews</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🎯</div>
+        <h3>Interview Prep</h3>
+        <ul>
+          <li>Mock interviews — Pramp, Interviewing.io</li>
+          <li>Company-specific LeetCode lists</li>
+          <li>"Tell me about yourself" — nail it cold</li>
+          <li>STAR method for behavioural rounds</li>
+        </ul>
+        <span class="card-tag green">Execution</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🏢</div>
+        <h3>Campus + Off-Campus</h3>
+        <ul>
+          <li>Register for campus placements early</li>
+          <li>Apply off-campus to startups in parallel</li>
+          <li>Referrals: message 20 engineers directly</li>
+          <li>AngelList, Wellfound, LinkedIn Easy Apply</li>
+        </ul>
+        <span class="card-tag orange">Strategy</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">🌟</div>
+        <h3>Specialization Stack</h3>
+        <ul>
+          <li>Go deep in 1 area: ML, DevOps, Security, etc.</li>
+          <li>Get a certification: AWS SAA / GCP ACE</li>
+          <li>Write 1 technical blog / month on Medium</li>
+          <li>Speak at a college tech fest or meetup</li>
+        </ul>
+        <span class="card-tag purple">Stand Out</span>
+      </div>
+      <div class="skill-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="card-icon">💡</div>
+        <h3>Mindset &amp; Wellbeing</h3>
+        <ul>
+          <li>Rejection is data, not failure — iterate</li>
+          <li>Build in public: tweet, post, share your work</li>
+          <li>Stay consistent: 2 hrs of coding daily &gt; 10 hrs weekends</li>
+          <li>Your network is your net worth — genuinely help others</li>
+        </ul>
+        <span class="card-tag">Always</span>
+      </div>
+    </div>
+    <div class="year-milestone">
+      <span>🏁 Year 4 Goal:</span> Offer in hand 🎉 — whether campus or off-campus. Resume polished. Mock interviews done. Mindset ready for the real world.
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">🚀 BTech Roadmap</div>
+      <p>Consistency &gt; Intensity. Start today — not Monday.</p>
+      <div class="footer-links">
+        <a href="https://leetcode.com" target="_blank">LeetCode</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://codeforces.com" target="_blank">Codeforces</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
